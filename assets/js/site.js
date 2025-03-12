@@ -11,3 +11,13 @@ const myBooks = ["The Catcher in the Rye",
     "The Da Vinci Code",
     "The Hunger Games"]
 
+
+console.groupCollapsed('console project');
+console.log('This is a normal console log')
+console.info(`This is a console info: ${myInfo}`);
+console.warn('This is a warning');
+console.error('This is an error');
+console.table(myBooks);
+console.time('default');
+console.timeEnd('default');
+console.groupEnd();
