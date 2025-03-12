@@ -12,7 +12,7 @@ const myBooks = ["The Catcher in the Rye",
     "The Hunger Games"]
 
 
-console.groupCollapsed('console project');
+console.group('console project');
 console.log('This is a normal console log')
 console.info(`This is a console info: ${myInfo}`);
 console.warn('This is a warning');
